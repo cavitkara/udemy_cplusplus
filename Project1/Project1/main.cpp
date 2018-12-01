@@ -18,6 +18,7 @@ int main(void) {
 	p_acc = new Account();
 	p_acc->deposit(1000);
 	p_acc->withdraw(500);
+	while (1);
 	delete p_acc;
 
 	return 0;
