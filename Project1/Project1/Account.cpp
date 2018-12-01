@@ -11,7 +11,8 @@ void Account::deposit(double amount) {
 	std::cout << "Account deposit amount: " << amount << std::endl;
 }
 
-Account::Account() {
+Account::Account()
+	: name{ "Ordinary account" }, balance{100.0} {
 
 }
 
