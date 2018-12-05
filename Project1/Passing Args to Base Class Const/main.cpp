@@ -28,6 +28,6 @@ public:
 
 void main() {
 
-	Derived d{1000};
+	Derived a{1000};
 
 }

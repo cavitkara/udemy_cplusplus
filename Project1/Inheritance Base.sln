@@ -13,7 +13,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Constructors and Destructur
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Passing Args to Base Class Const", "Passing Args to Base Class Const\Passing Args to Base Class Const.vcxproj", "{B5B33AD9-D1D5-477B-AB76-79ED5D9A3434}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Redefining Base Calss methods", "Redefining Base Calss methods\Redefining Base Calss methods.vcxproj", "{F034663A-AE80-46A2-8BFD-F49A16D7AC57}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Redefining Base Class methods", "Redefining Base Calss methods\Redefining Base Calss methods.vcxproj", "{F034663A-AE80-46A2-8BFD-F49A16D7AC57}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Challenge", "Challenge\Challenge.vcxproj", "{EEEF1990-E8EE-4314-84AF-B8254F89FEAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +73,14 @@ Global
 		{F034663A-AE80-46A2-8BFD-F49A16D7AC57}.Release|x64.Build.0 = Release|x64
 		{F034663A-AE80-46A2-8BFD-F49A16D7AC57}.Release|x86.ActiveCfg = Release|Win32
 		{F034663A-AE80-46A2-8BFD-F49A16D7AC57}.Release|x86.Build.0 = Release|Win32
+		{EEEF1990-E8EE-4314-84AF-B8254F89FEAE}.Debug|x64.ActiveCfg = Debug|x64
+		{EEEF1990-E8EE-4314-84AF-B8254F89FEAE}.Debug|x64.Build.0 = Debug|x64
+		{EEEF1990-E8EE-4314-84AF-B8254F89FEAE}.Debug|x86.ActiveCfg = Debug|Win32
+		{EEEF1990-E8EE-4314-84AF-B8254F89FEAE}.Debug|x86.Build.0 = Debug|Win32
+		{EEEF1990-E8EE-4314-84AF-B8254F89FEAE}.Release|x64.ActiveCfg = Release|x64
+		{EEEF1990-E8EE-4314-84AF-B8254F89FEAE}.Release|x64.Build.0 = Release|x64
+		{EEEF1990-E8EE-4314-84AF-B8254F89FEAE}.Release|x86.ActiveCfg = Release|Win32
+		{EEEF1990-E8EE-4314-84AF-B8254F89FEAE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
