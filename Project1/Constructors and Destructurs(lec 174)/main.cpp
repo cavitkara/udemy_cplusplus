@@ -14,12 +14,12 @@ using namespace std;
 	};
 
 	class Derived :public Base {
-		using Base::Base;
+//		using Base::Base;
 	private:
 		int double_value;
 	public:
 		Derived() { cout << "Derived no args constructor\n"; }
-//		Derived(int x) : double_value{ x * 2 } { cout << "Derived constructor\n"; }
+		Derived(int x) : double_value{ x * 2 } { cout << "Derived constructor\n"; }
 		~Derived() { cout<< "Derived destructor\n"; }
 	};
 
@@ -29,6 +29,6 @@ using namespace std;
 			Derived d{1000};
 
 
-//			while (1);
+			while (1);
 			return 0;
 		}
