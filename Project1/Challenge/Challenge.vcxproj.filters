@@ -27,6 +27,12 @@
     <ClCompile Include="Account_Util.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Checking_account.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Trust_account.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Account.h">
@@ -36,6 +42,12 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="Account_Util.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Checking_account.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Trust_account.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

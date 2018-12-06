@@ -112,13 +112,17 @@
   <ItemGroup>
     <ClCompile Include="Account.cpp" />
     <ClCompile Include="Account_Util.cpp" />
+    <ClCompile Include="Checking_account.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Savings_account.cpp" />
+    <ClCompile Include="Trust_account.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Account.h" />
     <ClInclude Include="Account_Util.h" />
+    <ClInclude Include="Checking_account.h" />
     <ClInclude Include="Savings_account.h" />
+    <ClInclude Include="Trust_account.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

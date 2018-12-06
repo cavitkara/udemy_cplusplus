@@ -1,6 +1,7 @@
 #include<iostream>
 #include"Account.h"
 #include"Account_Util.h"
+#include"Checking_account.h"
 #include<vector>
 
 using namespace std;
@@ -33,6 +34,39 @@ void main() {
 	display(sav);
 	deposit(sav, 1000);
 	withdraw(sav, 2000);
+
+
+	//checking Account;
+
+	vector<Checking_account> check;
+
+	check.push_back(Checking_account());
+	check.push_back(Checking_account{ "Ali" });
+	check.push_back(Checking_account{ "Veli", 1000 });
+	check.push_back(Checking_account{ "Selim", 5000 });
+
+	display(check);
+	deposit(check, 1000);
+	withdraw(check,2000);
+
+
+
+	//Trust Account;
+
+	vector<Trust_account> trst;
+
+	trst.push_back(Trust_account());
+	trst.push_back(Trust_account{ "Newton" });
+	trst.push_back(Trust_account{ "Einstein", 1000, 5 });
+	trst.push_back(Trust_account{ "Hawking", 5000, 10 });
+
+	display(trst);
+	deposit(trst, 1000);
+	withdraw(trst, 2000);
+	withdraw(trst, 750);
+	withdraw(trst, 750);
+	withdraw(trst, 750);
+
 
 	while (1);
 }
