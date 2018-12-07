@@ -58,10 +58,10 @@ void main() {
 	trst.push_back(Trust_account());
 	trst.push_back(Trust_account{ "Newton" });
 	trst.push_back(Trust_account{ "Einstein", 1000, 5 });
-	trst.push_back(Trust_account{ "Hawking", 5000, 10 });
+	trst.push_back(Trust_account{ "Hawking", 2000, 10 });
 
 	display(trst);
-	deposit(trst, 1000);
+	deposit(trst, 5000);
 	withdraw(trst, 2000);
 	withdraw(trst, 750);
 	withdraw(trst, 750);

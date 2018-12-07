@@ -5,7 +5,7 @@
 class Savings_account : public Account {
 
 protected:
-	std::string name;
+	//std::string name;
 	double int_rate;
 private:
 	static constexpr const char* def_name = "Unnamed Savings Account";
