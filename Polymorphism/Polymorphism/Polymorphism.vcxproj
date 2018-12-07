@@ -22,6 +22,7 @@
     <ProjectGuid>{EB6B38C3-D6ED-4073-BF67-E8357DD13DBA}</ProjectGuid>
     <RootNamespace>Polymorphism</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>Polymorphism static vs dynamic binding</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
