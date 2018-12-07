@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6D5F278C-621A-4CBE-AD4E-DB2D184608A3}</ProjectGuid>
-    <RootNamespace>UsingBaseclasspointerLecture183</RootNamespace>
+    <ProjectGuid>{8F4F0FE6-3798-4395-A316-77A2FF934546}</ProjectGuid>
+    <RootNamespace>Virtualfunction</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -110,6 +110,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
