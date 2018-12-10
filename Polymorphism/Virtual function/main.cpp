@@ -44,5 +44,11 @@ public:
 		p3->withdraw();
 		p4->withdraw();
 
+
+		delete p1;
+		delete p2;
+		delete p3;
+		delete p4;
+
 		while (1);
 	}
