@@ -11,7 +11,7 @@ bool Savings_account::deposit( double amount) {
 }
 
 void Savings_account::print(std::ostream &os) {
-	os << "Savings : "<<this->balance<<std::endl;
+	os << "Savings : "<<balance<<" int_rate : "<<int_rate<< std::endl;
 }
 
 bool Savings_account::withdraw(double amount) {

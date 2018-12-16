@@ -33,9 +33,9 @@ void main() {
 	*/
 	vector<Account*> acc;
 
-	acc.push_back(new Savings_account("Cavit", 5000));
+	acc.push_back(new Savings_account("Cavit", 5000, 1.50));
 	acc.push_back(new Checking_account("Hawking", 10000));
-	acc.push_back(new Trust_account("Bruce Vayne", 7000));
+	acc.push_back(new Trust_account("Bruce Vayne", 7000, 2.00));
 
 	display(acc);
 	deposit(acc, 3000);

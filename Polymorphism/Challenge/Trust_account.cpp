@@ -24,7 +24,7 @@ bool Trust_account::withdraw(double amount)
 }
 
 void Trust_account::print(std::ostream &os) {
-	os << "Trust : "<<this->balance<<std::endl;
+	os << "Trust : "<<this->balance << " int_rate : " << int_rate <<std::endl;
 }
 
 Trust_account::Trust_account(std::string n, double b, double ir, unsigned short cnt)
