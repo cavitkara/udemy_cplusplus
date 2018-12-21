@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exception Handling", "Exception Handling\Exception Handling.vcxproj", "{BB2B67FF-2344-4F24-A10A-F3D896447241}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Handling Multiple Exceptions", "Handling Multiple Exceptions\Handling Multiple Exceptions.vcxproj", "{949A0607-8299-4BF9-BBAA-0CAFA653EE4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{BB2B67FF-2344-4F24-A10A-F3D896447241}.Release|x64.Build.0 = Release|x64
 		{BB2B67FF-2344-4F24-A10A-F3D896447241}.Release|x86.ActiveCfg = Release|Win32
 		{BB2B67FF-2344-4F24-A10A-F3D896447241}.Release|x86.Build.0 = Release|Win32
+		{949A0607-8299-4BF9-BBAA-0CAFA653EE4A}.Debug|x64.ActiveCfg = Debug|x64
+		{949A0607-8299-4BF9-BBAA-0CAFA653EE4A}.Debug|x64.Build.0 = Debug|x64
+		{949A0607-8299-4BF9-BBAA-0CAFA653EE4A}.Debug|x86.ActiveCfg = Debug|Win32
+		{949A0607-8299-4BF9-BBAA-0CAFA653EE4A}.Debug|x86.Build.0 = Debug|Win32
+		{949A0607-8299-4BF9-BBAA-0CAFA653EE4A}.Release|x64.ActiveCfg = Release|x64
+		{949A0607-8299-4BF9-BBAA-0CAFA653EE4A}.Release|x64.Build.0 = Release|x64
+		{949A0607-8299-4BF9-BBAA-0CAFA653EE4A}.Release|x86.ActiveCfg = Release|Win32
+		{949A0607-8299-4BF9-BBAA-0CAFA653EE4A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

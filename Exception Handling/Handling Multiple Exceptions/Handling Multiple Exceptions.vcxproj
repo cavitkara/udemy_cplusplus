@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{BB2B67FF-2344-4F24-A10A-F3D896447241}</ProjectGuid>
-    <RootNamespace>ExceptionHandling</RootNamespace>
+    <ProjectGuid>{949A0607-8299-4BF9-BBAA-0CAFA653EE4A}</ProjectGuid>
+    <RootNamespace>HandlingMultipleExceptions</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -110,7 +110,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
