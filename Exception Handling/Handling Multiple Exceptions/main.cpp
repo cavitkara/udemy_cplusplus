@@ -8,10 +8,10 @@ int galon{};
 
 
 double calculate_average() {
-	
+
 	if (miles < 0 || galon < 0)
-		throw string{"Negative value entered!!"};
-	
+		throw string{ "Negative value entered!!" };
+
 	if (galon == 0)
 		throw 0;
 	return static_cast<double>(miles) / galon;
@@ -19,13 +19,15 @@ double calculate_average() {
 
 void main() {
 
+	double avg{};
+
 	cout << "miles: ";
 	cin >> miles;
 
 	cout << "galon: ";
 	cin >> galon;
 	try {
-		double avg = calculate_average();
+	    avg = calculate_average();
 		cout << "Result:" << avg << endl;
 	}
 	catch (int &ex) {
@@ -35,7 +37,7 @@ void main() {
 	catch (string &exc) {
 		std::cerr<<exc<< endl;
 	}
-	cout << "Bye";
+	cout << "Bye -- avg :" << avg << endl;
 
 	while (1);
 }
