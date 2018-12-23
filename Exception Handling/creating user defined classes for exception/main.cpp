@@ -1,6 +1,10 @@
 #include<iostream>
 #include<string>
 
+/*
+It's the best practice to define specific class to throw in exception
+*/
+
 using namespace std;
 
 int miles{};
